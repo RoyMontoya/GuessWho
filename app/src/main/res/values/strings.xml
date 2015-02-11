@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Guesswho</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_choose_skin">Choose skin</string>
+    <string name="black_skin">Black</string>
+    <string name="white_skin">White</string>
+    <string name="mild_skin">Mild</string>
+    <string name="title_activity_choose_body">Choose Body</string>
+    <string name="skinny_body">Skinny</string>
+    <string name="fit_body">Fit</string>
+    <string name="muscle_body">Muscle</string>
+    <string name="title_activity_choose_face">Choose Face</string>
+    <string name="Sharp_face">Sharp</string>
+    <string name="normal_face">Normal</string>
+    <string name="Bold_face">Bold</string>
+    <string name="title_activity_result">The Result is</string>
+    <string name="finish">Finish</string>
+
+</resources>

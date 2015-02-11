@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.amado.guesswho.ChooseBody">
+
+    <TextView
+        android:background="@color/choose_body"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="@dimen/title_text_size"
+        android:text="@string/title_activity_choose_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="420dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:textColor="@color/text_color_head"
+        android:layout_alignParentTop="true"
+        android:id="@+id/skin_choosed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textSize="@dimen/small_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/background_color"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:background="@drawable/button_style"
+            android:textColor="@color/text_color"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="30dp"
+            android:id="@+id/skinny_button"
+            android:text="@string/skinny_body"
+            android:layout_weight="30"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"/>
+
+        <Button
+            android:id="@+id/fit_button"
+            android:background="@drawable/button_style"
+            android:textColor="@color/text_color"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="30dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/fit_body"
+            android:layout_weight="30"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/muscle_button"
+            android:background="@drawable/button_style"
+            android:textColor="@color/text_color"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textSize="30dp"
+            android:text="@string/muscle_body"
+            android:layout_weight="30"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

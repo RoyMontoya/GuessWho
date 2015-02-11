@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#673AB7</color>
+    <color name="text_color">#F9FBE7</color>
+    <color name="background_color">#EDE7F6</color>
+    <color name="stroke_color">#90A4AE</color>
+    <color name="result_color">#64B5F6</color>
+    <color name="button_color">#4DB6AC</color>
+    <color name="bottom_button_color">#00695C</color>
+    <color name="button_pressed_color">#004D40</color>
+    <color name="text_color_head">#263238</color>
+    <color name="result_background">#E3F2FD</color>
+    <color name="choose_body">#F44336</color>
+    <color name="choose_face">#4CAF50</color>
+
+
+</resources>
